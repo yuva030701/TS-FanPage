@@ -2,7 +2,7 @@
 html,body
 {
     width: 100%;
-
+    scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
