@@ -34,7 +34,7 @@ p {
 }
 .bglimg{
   background-image: url("3.jpg") !important;
-  height:100%!important;
+  height:100vh!important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
