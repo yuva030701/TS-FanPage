@@ -333,11 +333,18 @@
 
 
 <script>
-    var load = document.getElementById("preloader");
-    function myFunction(){
-      load.style.display='none';
-    }
+var load = document.getElementById("preloader");
+var delayInMilliseconds =4000; //1 second
+function myFunction(){
+  setTimeout(function() {
+//your code to be executed after 1 second
+  load.style.display='none';
+  }, delayInMilliseconds);
 
+
+
+
+}
 </script>
 
 </body>
