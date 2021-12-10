@@ -298,7 +298,7 @@ p {
   background-color: #f6f6f6 !important;
 }
 .container-fluid5{
-  padding: 1% 0 0 0 !important;
+  padding: 1% 0 0 0;
   background-color: #383838!important;
 
 }
@@ -362,5 +362,14 @@ header.is-visible {
 }
 
 .btn-dark{
-  background-color:rgb(56,56,56) !important;
+  background-color:rgb(56,56,56)
+}
+
+#preloader{
+
+background: #000 url(https://miro.medium.com/max/875/1*e_Loq49BI4WmN7o9ItTADg.gif) no-repeat center center;
+height: 100%;
+width:100%;
+position:fixed;
+z-index:100;
 }
