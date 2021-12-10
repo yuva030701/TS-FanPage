@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="google-site-verification" content="gd4wbJMeZdO030G6RV-nd2JEeWQOWkEcnBGClN3Gfnk" />
   <title>TS</title>
   <link rel="icon" type="image/png" sizes="32x32" href="images/ts.png">
 
@@ -32,7 +31,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="myFunction()">
+  <div id="preloader">
+
+  </div>
 
 
       <!-- Nav Bar -->
@@ -319,6 +321,8 @@
       <a href="mailto: yuva030701@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
       <p class="p2">© Copyright 2020 Yuvaraj</p>
     </div>
+
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
@@ -326,6 +330,15 @@
     <script src="index.js" charset="utf-8"></script>
   </footer>
 
+
+
+<script>
+    var load = document.getElementById("preloader");
+    function myFunction(){
+      load.style.display='none';
+    }
+
+</script>
 
 </body>
 
